@@ -1,0 +1,33 @@
+.url-shortener-container {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.url-shortener-form {
+  display: flex;
+  justify-content: center;
+}
+
+.url-shortener-form-input-container {
+  margin-right: 8px;
+}
+
+.url-shortener-form-button-container {
+  margin-left: 8px;
+}
+
+.url-shortener-link {
+  color: #61dafb;
+}
+
+.url-shortener-error {
+  color: red;
+}
+
+.url-shortener-shortened-url-container, .url-shortener-error, .url-shortener-loader {
+  margin-top: 8px;
+}
+
+.url-shortener-shortened-url-link {
+  text-decoration: none;
+}
